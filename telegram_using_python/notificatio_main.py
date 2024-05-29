@@ -17,7 +17,7 @@ def send_notification(bot_token, chat_id, message):
 def main():
     """Main function to send notifications."""
     # Replace 'YOUR_BOT_TOKEN' with the token you received from BotFather
-    bot_token = '7115985794:AAGFTZL0xV8SNg0n7EA7vOQQg7FDSXw1UVo'
+    bot_token = ''
     # Replace 'YOUR_CHAT_ID' with the ID of the chat or user you want to send notifications to
     chat_id = 'unknown777123'
     message = 'This is an automated notification from your Python script.'
