@@ -2,7 +2,7 @@ Hi,
 
 I'm Johnny from Lebanon. I am a computer engineer with over 5 years of experience in the software automation industry.
 
-I have worked with different high tier clients (mainly banking sector and supply chain) to provide automation solution to their business needs.
+I have worked with different high tier clients (mainly banking sector and supply chain) to provide automation solutions to their business needs.
 
 the tools i used vary from propietary products (UiPath, Nintex,...) to Open-source solutions (mainly python using selenium, pandas, file manipulations, document extraction...)
 

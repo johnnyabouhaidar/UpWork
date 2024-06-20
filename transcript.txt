@@ -1,0 +1,130 @@
+ 	
+
+****Transfer Credits for Lebanese Bacc II (Life Sc)****        
+MAT  111  CAL & ANALYT GEOM I                         4        
+MAT  112  CAL & ANALYT GEOM II                        4        
+PHS  101  GENERAL PHYSICS I                           3        
+PHS  102  GENERAL PHYSICS II                          3        
+CHM  101  GENERAL CHEMISTRY I                                  
+   OR                                                 3        
+BIO  101  INTRODUCTION TO BIOLOGY                              
+PHL  101  INTRO TO PHILOSOPHY                         3        
+HIT  101  CONT HIST OF LEBANON                        3        
+--------  Humanities Electives                        7        
+                                             Total:  30 Cr.    
+************** Remedial Courses on Admission *************     
+ENL  110  COLLEGE ENGLISH II                          3        
+                                             Total:   3 Cr.    
+********* Credits Given on admission:      30 Cr.*********     
+           
+            FALL SEMESTER 2014                                 
+CHM  211  PRINCIPLES OF CHEMISTRY             3  B-   8.1      
+MAT  213  CALCULUS III                        3  B    9.0      
+MAT  211  DISCRETE MATH                       3  B+   9.9      
+ENL  110  COLLEGE ENGLISH II                  3  B    0.0      
+ENG  201  INTRODUCTION TO ENGINEERING         3  B-   8.1      
+TERM:  CR. ATT. = 12   CR. PASS = 12   PTS = 35.1   GPA =2.93  
+CUM :  CR. ATT. = 12   CR. PASS = 42   PTS = 35.1   GPA =2.93  
+           
+            SPRING SEMESTER 2015                               
+MAT  215  LINEAR ALGEBRA I                    3  C+   6.9      
+CSC  212  PRO DESIGN DATA ABSTRACTION I       3  A+  12.0      
+ENL  213  SOPHOMORE ENGLISH RHETORIC          3  B-   8.1      
+EEN  201  CIRCUITS ANALYSIS I                 3  C    6.0      
+REG  212  REL & SOC ISSUES                    3  C+   6.9      
+CHM  271  PRINCIPLES OF CHEMISTRY LAB         1  A-   3.7      
+TERM:  CR. ATT. = 16   CR. PASS = 16   PTS = 43.6   GPA =2.73  
+CUM :  CR. ATT. = 28   CR. PASS = 58   PTS = 78.7   GPA =2.81  
+           
+            FALL SEMESTER 2015                                 
+ENL  230  ENGLISH IN THE WORKPLACE            3  B    9.0      
+CSC  213  PRO DESIGN DATA ABSTRACTION II      3  A-  11.1      
+ENG  202  COMPUTERS AND ENGINEERING           3  C+   6.9      
+EEN  202  CIRCUITS ANALYSIS II                3  A   12.0      
+EEN  203  CIRCUITS LABORATORY                 1  A-   3.7      
+MAT  235  ORDINARY DIFF EQUA                  3  C-   5.1      
+TERM:  CR. ATT. = 16   CR. PASS = 16   PTS = 47.8   GPA =2.99  
+CUM :  CR. ATT. = 44   CR. PASS = 74   PTS =126.5   GPA =2.88  
+           
+            SPRING SEMESTER 2016                               
+EEN  220  INTRODUCTION TO LOGIC DESIGN        3  C+   6.9      
+EEN  310  ELECTRONIC CIRCUITS I               3  B    9.0      
+MAT  224  CALCULUS IV                         3  A-  11.1      
+ARB  212  ADV ARABIC GRAMMAR                  3  C+   6.9      
+PHS  212  ELECTRICITY AND MAGNETISM           3  B+   9.9      
+TERM:  CR. ATT. = 15   CR. PASS = 15   PTS = 43.8   GPA =2.92  
+CUM :  CR. ATT. = 59   CR. PASS = 89   PTS =170.3   GPA =2.89  
+           
+            SUMMER SEMESTER 2016                               
+MAT  339  NUMERICAL ANALYSIS                  3  B-   8.1      
+AST  201  DISCOVERING ASTRONOMY               3  A   12.0      
+TERM:  CR. ATT. =  6   CR. PASS =  6   PTS = 20.1   GPA =3.35  
+CUM :  CR. ATT. = 65   CR. PASS = 95   PTS =190.4   GPA =2.93  
+           
+            FALL SEMESTER 2016                                 
+EEN  311  ELECTRONIC CIRCUITS II              3  B    9.0      
+MAT  326  PROB. & STAT FOR ENGINEERS          3  C+   6.9      
+CSC  323  OBJECT ORIENTED DESIGN              3  A-  11.1      
+EEN  312  ELECTRONIC CIRCUITS LAB             1  A-   3.7      
+EEN  330  ELECTROMAGNETICS I                  3  B+   9.9      
+TERM:  CR. ATT. = 13   CR. PASS = 13   PTS = 40.6   GPA =3.12  
+CUM :  CR. ATT. = 78   CR. PASS =108   PTS =231.0   GPA =2.96  
+           
+            SPRING SEMESTER 2017                               
+CEN  201  ENGINEERING MECHANICS               3  C-   5.1      
+EEN  331  ELECTROMAGNETICS II                 3  B    9.0      
+MUS  210  MUSIC APPRECIATION                  3  A-  11.1      
+EEN  221  LOGIC DESIGN LABORATORY             1  A    4.0      
+EEN  340  SIGNALS AND SYSTEMS                 3  B+   9.9      
+CSC  312  COMPUTER ARCHITECTURE               3  C+   6.9      
+TERM:  CR. ATT. = 16   CR. PASS = 16   PTS = 46.0   GPA =2.88  
+CUM :  CR. ATT. = 94   CR. PASS =124   PTS =277.0   GPA =2.95  
+           
+            SUMMER SEMESTER 2017                               
+PHS  213  MODERN PHYSICS                      3  B    9.0      
+TERM:  CR. ATT. =  3   CR. PASS =  3   PTS =  9.0   GPA =3.00  
+CUM :  CR. ATT. = 97   CR. PASS =127   PTS =286.0   GPA =2.95  
+           
+            FALL SEMESTER 2017                                 
+EEN  324  MICROPROCESSOR SYSTEM DESIGN        3  B+   9.9      
+PHS  271  ELECTRICITY & MAGNETISM LAB.        1  B+   3.3      
+EEN  325  MICROPROCESSOR LABORATORY           1  A    4.0      
+HIT  211  HIST OF LEB & THE ME                3  C    6.0      
+EEN  344  COMMUNICATION SYSTEMS I             3  C    6.0      
+CSC  425  DATA COMMU & COMPUT NETWORKS        3  B+   9.9      
+TERM:  CR. ATT. = 14   CR. PASS = 14   PTS = 39.1   GPA =2.79  
+CUM :  CR. ATT. =111   CR. PASS =141   PTS =325.1   GPA =2.93  
+           
+            SPRING SEMESTER 2018                               
+ECN  211  PRINCIPLES OF MICROECONOMICS        3  C-   5.1      
+EEN  322  DIGITAL INTEGRATED CIRCUITS         3  C+   6.9      
+EEN  443  COMMUNICATION SYSTEMS II            3  B    9.0      
+EEN  350  FUND OF ELECTRIC MACHINES           3  B-   8.1      
+EEN  430  ANTENNA DES FOR WIRELESS COMM       3  B+   9.9      
+TERM:  CR. ATT. = 15   CR. PASS = 15   PTS = 39.0   GPA =2.60  
+CUM :  CR. ATT. =126   CR. PASS =156   PTS =364.1   GPA =2.89  
+           
+            SUMMER SEMESTER 2018                               
+EEN  489  APPROVED PROFESSIONAL TRAINING      1  P    0.0      
+TERM:  CR. ATT. =  1   CR. PASS =  1   PTS =  0.0   GPA =0.00  
+CUM :  CR. ATT. =127   CR. PASS =157   PTS =364.1   GPA =2.89  
+           
+            FALL SEMESTER 2018                                 
+EEN  548  WIRELESS COMMUNICATIONS             3  C    6.0      
+CSC  414  APPLIED OPERATING SYSTEMS           3  C+   6.9      
+CSC  426  PRINCIPLES OF DATABASE SYSTEMS      3  B-   8.1      
+EEN  445  COMPUTER NETWORK LAB                1  B    3.0      
+PHL  311  ETHICS & THE MOD WORLD              3  A   12.0      
+EEN  598  ENGINEERING DESIGN I                1  B+   3.3      
+TERM:  CR. ATT. = 14   CR. PASS = 14   PTS = 39.3   GPA =2.81  
+CUM :  CR. ATT. =141   CR. PASS =171   PTS =403.4   GPA =2.88  
+           
+            SPRING SEMESTER 2019                               
+EEN  444  COMMUNICATION SYSTEMS LAB           1  A-   3.7      
+CSC  313  DATA STRUCTURES                     3  A-  11.1      
+EEN  599  ENGINEERING DESIGN II               2  B+   6.6      
+GEM  201  GERMAN I                            3  A   12.0      
+TERM:  CR. ATT. =  9   CR. PASS =  9   PTS = 33.4   GPA =3.71  
+CUM :  CR. ATT. =150   CR. PASS =180   PTS =436.8   GPA =2.93  
+
+  	 
