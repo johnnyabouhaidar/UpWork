@@ -3,7 +3,7 @@
 
 import requests
 
-def google_search(api_key, cx, query, num_results=10):
+def google_search(api_key, cx, query, num_results=40):
     search_url = 'https://www.googleapis.com/customsearch/v1'
     params = {
         'key': api_key,
