@@ -6,8 +6,8 @@ from urllib.parse import urlencode
 
 
 items_to_skip = ['info@','.png','.jpg','support@']
-websites_limit = 1000
-keyword_to_search = '"facebook"&"agency"'
+websites_limit = 2000
+keyword_to_search = 'facebook-agency'
 
 
 def extract_between(text, start_str, end_str):
@@ -58,6 +58,7 @@ def google_search_scrape(query):
     }
     url = 'https://www.google.com/search?' + urlencode(params)
     response = requests.get(url, headers=headers)
+    print(response.text)
     soup = BeautifulSoup(response.text, 'html.parser')
 
     results = []
