@@ -1,3 +1,4 @@
+import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -9,8 +10,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 while True:
     try:
         # Install and set up the Chrome driver
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service)
+        #service = Service(ChromeDriverManager().install())
+        driver = webdriver.Chrome()
 
         # Go to the login page
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")  # Please replace with the actual URL
@@ -38,14 +39,14 @@ while True:
         # Click the link
         link.click()   
 
-        text_field = WebDriverWait(driver, 10).until(
+        text_field = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.NAME, "firstName"))  # Adjust the locator as needed
         )
 
         # Get the value of the text field
         text_value = text_field.get_attribute("value")
 
-
+        time.sleep(2)
         print(text_value)
 
     except Exception as e:
@@ -53,6 +54,6 @@ while True:
 
     finally:
         # Close the browser after a short delay to see the result
-        import time
+        
         time.sleep(5)
         driver.quit()
