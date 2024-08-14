@@ -11,7 +11,7 @@ while True:
     try:
         # Install and set up the Chrome driver
         #service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome()
+        driver = webdriver.Firefox()
 
         # Go to the login page
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")  # Please replace with the actual URL
