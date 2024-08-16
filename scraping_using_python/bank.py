@@ -17,15 +17,37 @@ password_field = driver.find_element(By.ID,"login_password")
 
 
 username_field.send_keys("")
-password_field.send_keys("") #why stalking?
+password_field.send_keys("") 
 password_field.send_keys(Keys.RETURN)
 
 ###
-OK_btn = WebDriverWait(driver,30).until(
-    EC.presence_of_element_located((By.XPATH,"//div[@class='button-container oj-flex']/button/div/span"))
-)
+try:
+    time.sleep(5)
+    OK_btn = WebDriverWait(driver,30).until(
+        EC.presence_of_element_located((By.ID,"ui-id-1"))
+    )
 
-OK_btn.click()
+    OK_btn.click()
+except:
+    pass
+
+rows = 1+len(driver.find_elements(By.XPATH, 
+    "//table[@id='SummaryTable']/tbody/tr")) 
+  
+# Obtain the number of columns in table 
+cols = len(driver.find_elements(By.XPATH, 
+    "//table[@id='SummaryTable']/tbody/tr[1]/td")) 
+  
+# Print rows and columns 
 
 
-time.sleep(10)
+value = driver.find_element(By.XPATH, 
+    "//table[@id='SummaryTable']/tbody/tr["+str(2)+"]/td["+str(7)+"]").text 
+print(value)
+availabe_usd_balance = value.replace("$","")
+
+if (float(availabe_usd_balance)>200):
+    print("new money")
+else:
+    print("no money no honey")
+
