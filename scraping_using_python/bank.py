@@ -1,4 +1,5 @@
 import time
+import json
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -15,9 +16,11 @@ username_field = WebDriverWait(driver,15).until(
 )
 password_field = driver.find_element(By.ID,"login_password")
 
+f = open("creds.json")
+creds = json.load(f)
 
-username_field.send_keys("")
-password_field.send_keys("") 
+username_field.send_keys(creds["username"])
+password_field.send_keys(creds["password"]) 
 password_field.send_keys(Keys.RETURN)
 
 ###
