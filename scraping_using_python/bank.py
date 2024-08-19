@@ -16,7 +16,7 @@ username_field = WebDriverWait(driver,15).until(
 )
 password_field = driver.find_element(By.ID,"login_password")
 
-f = open("creds.json")
+f = open("credentials.json")
 creds = json.load(f)
 
 username_field.send_keys(creds["username"])
