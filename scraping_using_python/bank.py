@@ -7,50 +7,71 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
-
-driver = webdriver.Firefox()
-driver.get("https://onlinebanking.bankmed.com.lb/index.html?module=login")
-
-username_field = WebDriverWait(driver,15).until(
-    EC.presence_of_element_located((By.ID,"login_username"))
-)
-password_field = driver.find_element(By.ID,"login_password")
+from smtp_email.emailclass import email_class
 
 f = open("cred.json")
 creds = json.load(f)
+emailuser=creds["emailaddress"]
+emailpass=creds["emailpassword"]
+email_obj = email_class(emailuser,emailpass)
 
-username_field.send_keys(creds["username"])
-password_field.send_keys(creds["password"]) 
-password_field.send_keys(Keys.RETURN)
+driver = webdriver.Firefox()
 
-###
 try:
-    time.sleep(5)
-    OK_btn = WebDriverWait(driver,30).until(
-        EC.presence_of_element_located((By.ID,"ui-id-1"))
+    driver.get("https://onlinebanking.bankmed.com.lb/index.html?module=login")
+
+
+
+    username_field = WebDriverWait(driver,35).until(
+        EC.presence_of_element_located((By.ID,"login_username"))
     )
+    password_field = driver.find_element(By.ID,"login_password")
 
-    OK_btn.click()
+
+
+    username_field.send_keys(creds["username"])
+    password_field.send_keys(creds["password"]) 
+    password_field.send_keys(Keys.RETURN)
+
+    ###
+    try:
+        time.sleep(10)
+        OK_btn = WebDriverWait(driver,40).until(
+            EC.presence_of_element_located((By.ID,"ui-id-1"))
+        )
+
+        OK_btn.click()
+    except:
+        pass
+
+    rows = 1+len(driver.find_elements(By.XPATH, 
+        "//table[@id='SummaryTable']/tbody/tr")) 
+    
+    # Obtain the number of columns in table 
+    cols = len(driver.find_elements(By.XPATH, 
+        "//table[@id='SummaryTable']/tbody/tr[1]/td")) 
+    
+    # Print rows and columns 
+
+
+    value = driver.find_element(By.XPATH, 
+        "//table[@id='SummaryTable']/tbody/tr["+str(2)+"]/td["+str(7)+"]").text 
+    print(value)
+    availabe_usd_balance = value.replace("$","")
+
+
+
+    if (float(availabe_usd_balance)>300):
+        email_obj.send_email("New Salary","salary depositted! :)","johnnyabuhaydar@gmail.com")
+    else:
+        email_obj.send_email("No salary","No salary has been depositted yet :(","johnnyabuhaydar@gmail.com")
 except:
-    pass
+    email_obj.send_email("Something Wrong","something went wrong please check","johnnyabuhaydar@gmail.com")
 
-rows = 1+len(driver.find_elements(By.XPATH, 
-    "//table[@id='SummaryTable']/tbody/tr")) 
-  
-# Obtain the number of columns in table 
-cols = len(driver.find_elements(By.XPATH, 
-    "//table[@id='SummaryTable']/tbody/tr[1]/td")) 
-  
-# Print rows and columns 
+finally:
+    driver.quit()
+    f.close()
 
 
-value = driver.find_element(By.XPATH, 
-    "//table[@id='SummaryTable']/tbody/tr["+str(2)+"]/td["+str(7)+"]").text 
-print(value)
-availabe_usd_balance = value.replace("$","")
 
-if (float(availabe_usd_balance)>200):
-    print("new money")
-else:
-    print("no money no honey")
 
