@@ -2,7 +2,7 @@ class HelloWorld{
     public static void main(String[] args){
         try{
         int sentence = 1;
-        System.out.println(5/0);
+        sentence = "test";
         }catch(Exception ex){
         System.out.println("ow");    
         }finally{
