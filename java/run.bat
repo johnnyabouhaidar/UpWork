@@ -1,4 +1,4 @@
-javac main.java
-java HelloWorld
+javac A.java
+java A
 
 pause
